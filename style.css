@@ -118,6 +118,12 @@ h1 {
     font-size: 50px;
 }
 
+a {
+    color: var(--color-text);
+    text-decoration: none;
+    border-bottom: 2px dashed var(--color-text);
+}
+
 .panel h2 {
     font-size: 40px;
     margin: 20px 0px;
@@ -131,8 +137,9 @@ h1 {
     margin: 20px 0px;
 }
 
-.panel p {
+.panel p, .panel p a {
     margin: 10px 0px;
+    font-size: 24px;
 }
 
 .panel p span {
@@ -157,4 +164,8 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.text-squish {
+    padding: 0px 5%;
 }
